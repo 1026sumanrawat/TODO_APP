@@ -1,0 +1,37 @@
+GET http://localhost:3000/subscribers
+
+
+
+###
+
+GET http://localhost:3000/subscribers/5fb5c3c507083a5830c53487
+
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+
+    "titleOfTask": "Lecture",
+    "description" : "On onday every week"
+    
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5fb5c92fac7bc651781ad68a
+
+
+###
+
+PATCH http://localhost:3000/subscribers/5fb63a6c43f2463d109cf5dd
+Content-Type: application/json
+
+{
+
+    "titleOfTask": "nEW Lecture",
+    "description" : "On monday every week"
+    
+}
